@@ -22,10 +22,6 @@ nav{
     text-align: center;
     display: flex;
     height: 200px;
-    transform: translateX(-150px);
-}
-div h1{
-    transform: translateX(-150px);
 }
 header > div {
     display: flex;
@@ -86,40 +82,27 @@ img{
     border-radius: 10px;
 
 }
-.pratos{
+.Cards{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     padding: 30px;
 }
-.prato{
+.Card{
     border: 1px solid black;
     height: 250px;
     border-radius: 30px;
     background-color: gray;
 }
-.prato img{
+.Card img{
     width: 200px;
     padding: 20px;
     border-radius: 30px;
     display: block;
     justify-content: center;
+    
 }
-.pratinho img{
-    width: 200px;
-    padding: 20px;
-    border-radius: 30px;
-    display: block;
-    justify-content: center;
-    transform: translateX(10px);
-}
-.pratinho{
-    border: 1px solid black;
-    height: 250px;
-    border-radius: 30px;
-    background-color: gray;
-}
-.prato:hover{
+.Card:hover{
     transform: scale(1.2);
 }
 .topo{
@@ -134,37 +117,5 @@ img{
     background-color: gray;
      border: 2px solid black;
 }
-.pratinho:hover{
-    transform: scale(1.2);   
-}
-.cabeçalho{
-    transform: translateX(1050px);
-    list-style: none;
-    display: flex;
-}
-.cabeçalho li{
-    position: relative;
-}
-.cabeçalho li a{
-    display: block;
-    padding: 15px 20px;
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 14px;
-    background-color: rgb(85, 88, 130);;
-}
-.submenu{
-    display: none;
-    position: absolute;
-    list-style: none;
-}
-.submenu li a{
-    display: block;
-}
-.submenu li a:hover{
-    background-color: #c2c2c2;
-}
-.cabeçalho li:hover .submenu{
-    display: block;
-}
+
 
